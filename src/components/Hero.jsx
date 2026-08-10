@@ -9,7 +9,7 @@ export default function Hero() {
         <h1>
           The
           <br />
-          <span>Squat</span>
+          Squat
         </h1>
         <p className="sub">Elite Fitness Club — for those who expect more.</p>
         <div className="strip">

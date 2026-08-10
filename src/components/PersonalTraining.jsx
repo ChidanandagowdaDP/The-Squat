@@ -1,4 +1,4 @@
-import logoMarkA from '../assets/logo-mark-a.png'
+import logoMarkA from "../assets/logo-mark-b.png";
 
 export default function PersonalTraining() {
   return (
