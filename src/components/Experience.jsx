@@ -24,10 +24,17 @@ const EXP_CARDS = [
 export default function Experience() {
   const [active, setActive] = useState(null);
   const videoRef = useRef(null);
+  const previewRef = useRef(null);
 
   useEffect(() => {
     if (active && videoRef.current) {
       videoRef.current.play().catch(() => {});
+    }
+  }, [active]);
+
+  useEffect(() => {
+    if (active && previewRef.current) {
+      previewRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [active]);
 
@@ -72,7 +79,11 @@ export default function Experience() {
           ))}
         </div>
         {active && (
-          <div className="exp-preview">
+          <div
+            className="exp-preview"
+            ref={previewRef}
+            style={{ scrollMarginTop: 110 }}
+          >
             <div className="exp-preview-head">
               <span className="t">{active.title}</span>
               <button onClick={() => setActive(null)}>Close ✕</button>
