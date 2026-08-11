@@ -19,7 +19,10 @@ export default function Footer() {
             </div>
             <div className="foot-col">
               <div className="label">Contact</div>
-              <div>9538 33 1234</div>
+              <div>
+                {" "}
+                <a href="tel:+919538331234">9538 33 1234</a>
+              </div>
               <div>
                 <a href="mailto:contact@thesquat.fit">contact@thesquat.fit</a>
               </div>
