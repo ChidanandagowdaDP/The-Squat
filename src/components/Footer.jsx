@@ -1,4 +1,4 @@
-import logoMarkA from '../assets/logo-mark-a.png'
+import logoMarkA from "../assets/logo-mark-a.png";
 
 export default function Footer() {
   return (
@@ -20,7 +20,7 @@ export default function Footer() {
             <div className="foot-col">
               <div className="label">Contact</div>
               <div>9538 33 1234</div>
-              <div>contact.thesquat@gmail.com</div>
+              <div>contact@thesquat.fit</div>
               <div>@thesquat.fit</div>
             </div>
           </div>
@@ -31,5 +31,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
