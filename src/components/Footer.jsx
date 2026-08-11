@@ -20,8 +20,18 @@ export default function Footer() {
             <div className="foot-col">
               <div className="label">Contact</div>
               <div>9538 33 1234</div>
-              <div>contact@thesquat.fit</div>
-              <div>@thesquat.fit</div>
+              <div>
+                <a href="mailto:contact@thesquat.fit">contact@thesquat.fit</a>
+              </div>
+              <div>
+                <a
+                  href="https://instagram.com/thesquat.fit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @thesquat.fit
+                </a>
+              </div>
             </div>
           </div>
         </div>
