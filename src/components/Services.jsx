@@ -1,31 +1,31 @@
 const SERVICES = [
-  'Gym Membership',
-  'Personal Training',
-  'Strength Training',
-  'Muscle Building',
-  'Weight Loss & Fat Loss',
-  'Functional Training',
-  'Cardio Training',
-  'Nutrition Guidance',
-]
+  "Gym Membership",
+  "Personal Training",
+  "Strength Training",
+  "Muscle Building",
+  "Weight Loss & Fat Loss",
+  "Functional Training",
+  "Cardio Training",
+  "Nutrition Guidance",
+];
 
-const GROUP_TAGS = ['Zumba', 'Yoga', 'HIIT', 'And More']
+const GROUP_TAGS = ["Zumba", "Yoga", "HIIT", "And More"];
 
 export default function Services() {
   return (
     <section className="section" id="services">
       <div className="wrap">
         <div className="eyebrow">Our Services</div>
-        <h2>
+        {/* <h2>
           Everything you need,
           <br />
           under one roof.
-        </h2>
+        </h2> */}
         <div className="services-list">
           {SERVICES.map((name, i) => (
             <div className="service-row" key={name}>
               <span className="name">{name}</span>
-              <span className="idx">{String(i + 1).padStart(2, '0')}</span>
+              <span className="idx">{String(i + 1).padStart(2, "0")}</span>
             </div>
           ))}
           <div className="service-row-block">
@@ -48,5 +48,5 @@ export default function Services() {
         </div>
       </div>
     </section>
-  )
+  );
 }

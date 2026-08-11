@@ -12,7 +12,11 @@ const EXP_CARDS = [
     title: "Functional Training Area",
     video: "assets/functional_training_area.mp4",
   },
-  { ic: "🧘", title: "Group Fitness Studio" },
+  {
+    ic: "🧘",
+    title: "Group Fitness Studio",
+    video: "assets/functional_training_area.mp4",
+  },
   { ic: "🧖", title: "Steam & Recovery" },
   {
     ic: "💺",

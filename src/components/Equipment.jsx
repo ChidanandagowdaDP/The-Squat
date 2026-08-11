@@ -4,9 +4,9 @@ export default function Equipment() {
       <div className="wrap">
         <div className="eyebrow">Premium Equipment</div>
         <h2>
-          Invested in the tools
+          We've Invested in Industry-leading equipment
           <br />
-          that earn results.
+          to deliver a world-class training Experience.
         </h2>
         <div className="brand-grid">
           <div className="brand-card">
@@ -20,5 +20,5 @@ export default function Equipment() {
         </div>
       </div>
     </section>
-  )
+  );
 }

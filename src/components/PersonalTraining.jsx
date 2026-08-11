@@ -2,16 +2,12 @@ import logoMarkA from "../assets/logo-mark-b.png";
 
 export default function PersonalTraining() {
   return (
-    <section className="section">
+    <section className="section" id="personal-training">
       <div className="wrap">
         <div className="pt-wrap">
           <div>
             <div className="eyebrow">Personal Training</div>
-            <h2>
-              Faster results,
-              <br />
-              guided properly.
-            </h2>
+
             <p>
               Achieve your goals faster with certified trainers who provide
               personalized workout programs, expert guidance, and nutrition

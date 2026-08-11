@@ -666,6 +666,11 @@ nav.primary a:hover::after {
 }
 
 /* ---------- services ---------- */
+#services .eyebrow {
+  font-size: clamp(20px, 4vw, 44px);
+  letter-spacing: 0.12em;
+  margin-bottom: 22px;
+}
 .services-list {
   margin-top: 50px;
   border-top: 1px solid var(--line-light);
