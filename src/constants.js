@@ -2,7 +2,7 @@ export const CONTACT = {
   phoneDisplay: "9538 33 1234",
   phoneTel: "+919538331234",
   whatsappNumber: "919538331234",
-  email: "contact.thesquat@gmail.com",
+  email: "contact@thesquat.fit",
   instagram: "https://instagram.com/thesquat.fit",
   addressLines: [
     "No. 197, 2nd Floor, Kempegowda Road,",
