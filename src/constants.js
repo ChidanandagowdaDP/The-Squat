@@ -2,8 +2,8 @@ export const CONTACT = {
   phoneDisplay: "9538 33 1234",
   phoneTel: "+919538331234",
   whatsappNumber: "919538331234",
-  email: "contact@thesquat.fit",
-  instagram: "https://instagram.com/thesquat.fit",
+  email: "contact@thesquat.in",
+  instagram: "https://instagram.com/thesquat.in",
   addressLines: [
     "No. 197, 2nd Floor, Kempegowda Road,",
     "Rajarajeshwari Nagar, Bengaluru,",
